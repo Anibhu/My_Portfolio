@@ -123,12 +123,12 @@ const Skills = () => {
   return (
     <section
       ref={containerRef}
-      id="my-stack"
+      id="skills"
       className=" text-white py-24 px-6 md:px-16"
     >
       <div className="max-w-6xl mx-auto">
-        <h2 className="text-sm uppercase tracking-widest text-neutral-400 mb-16 flex items-center gap-2">
-          <span className="text-emerald-400">✦</span> My Stack
+        <h2 className="text-lg  uppercase tracking-widest text-neutral-400 mb-16 flex items-center gap-2 font-bold">
+          <span className="text-emerald-400">✦</span> Technical Skills
         </h2>
 
         <div className="space-y-16">

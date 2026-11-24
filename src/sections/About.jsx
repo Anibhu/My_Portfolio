@@ -7,7 +7,7 @@ import TerminalCard from '../components/TerminalCard';
 const About = () => {
     const grid2Container = useRef();
   return (
-    <section className="c-space section-spacing">
+    <section id="about" className="c-space section-spacing">
         <h2 className="text-heading">About Me </h2>
         {/* BENTO GRID STYLE */}
         <div className="grid grid-cols-1 gap-4 md:grid-cols-6 md:auto-rows-[18rem] mt-12">
